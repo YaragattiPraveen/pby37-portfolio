@@ -5,7 +5,6 @@ import TechStack from './Components/Tech Stack/TechStack';
 import Project from './Components/Projects/Project';
 import Workexperience from './Components/WorkExperience/Workexperience';
 import Education from './Components/Education/Education';
-import Testimonial from './Components/Testimonial/Testimonial';
 
 
 
@@ -18,7 +17,6 @@ function App() {
       <Project/>
       <Workexperience/>
       <Education/>
-      <Testimonial/>
     </>
   );
 }
