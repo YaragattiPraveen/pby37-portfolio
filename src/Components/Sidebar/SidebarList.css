@@ -1,0 +1,36 @@
+.sidebar-profile-pic img{
+    border-radius: 90px;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    vertical-align: middle;
+    margin: 0 auto;
+    object-fit: cover;
+    transition: all .6s ease-in-out;
+    border: 3px solid rgba(0, 255, 115, 0.303);
+}
+.navbar-items ul li{
+    color: #fff;
+    list-style-type: none;
+    cursor: pointer;
+    transition: all ease-in-out .6s;
+    margin-top: 30px;
+}
+.navbar-items ul li svg{
+    margin-right: 25px;
+    margin-left: 10px;
+}
+.navbar-items-only-icons ul li{
+    margin-top: 30px;
+    cursor: pointer;
+    list-style-type: none;
+}
+.navbar-items-only-icons ul li svg{
+    margin-left: 10px;
+}
+@media screen and (max-width: 480px){
+    .navbar-items-only-icons ul li svg{
+        margin-left: 0px;
+    }
+}
