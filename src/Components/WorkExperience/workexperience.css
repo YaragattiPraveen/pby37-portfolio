@@ -3,11 +3,11 @@
 }
 .tech-skill p{
     text-align: center;
-    background-color: black;
+    background-color: rgb(235, 21, 21);
     padding: 3px 4px;
     font-size: 9px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 .text{
     color: rgb(4, 4, 4);
