@@ -4,7 +4,8 @@
 .tech-skill p{
     text-align: center;
     background-color: black;
-    padding: 3px 5px;
+    padding: 3px 4px;
+    font-size: 9px;
     border-radius: 30px;
 }
 .text{

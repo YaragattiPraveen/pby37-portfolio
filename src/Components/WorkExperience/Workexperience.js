@@ -114,7 +114,7 @@ const Workexperience = () => {
                     key={index}
                   >
                     <div className="tech-skill">
-                      <p>{tech.techname}</p>
+                      <p style={{fontSize:"15px"}}>{tech.techname}</p>
                     </div>
                   </div>
                 ))}

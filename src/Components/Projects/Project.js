@@ -126,7 +126,7 @@ const Project = () => {
       </div>
       <div className="row">
         {data.map((val, ind) => (
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12" key={ind}>
+            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12" key={ind}>
                 <ProjectList {...val}/>
           </div>)
         )}
