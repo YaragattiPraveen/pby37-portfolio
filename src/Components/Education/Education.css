@@ -1,3 +1,20 @@
 .Education-section{
     padding-left: 125px;
+    z-index: -1;
 }
+@media screen and (max-width: 480px){
+    .Education-section{
+        padding: 0 5px;
+        margin: 0px 1px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
+    .Education-section{
+        padding: 0 12px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1000px){
+    .Education-section{
+        padding: 0 20px;
+    }
+  }

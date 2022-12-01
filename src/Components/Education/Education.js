@@ -32,13 +32,13 @@ const Education = () => {
     const bgcolors = ["#6a040f", "#81b29a", "#003566"];
 
     return (
-        <div className="container Education-section">
+        <div className="container Education-section" id='Education'>
             <div className="section-title">
                 <h4>Education</h4>
                 <span className="line"></span>
             </div>
             <div className="verticale-section">
-                <VerticalTimeline lineColor="#004e98">
+                <VerticalTimeline className='zindex' lineColor="#004e98">
                     {data.map((item, key) => (
                         <VerticalTimelineElement
                             key={key}

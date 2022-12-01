@@ -73,7 +73,7 @@ const TechStack = () => {
     setLoadmore((prev) => prev + 3);
   }
   return (
-    <div className="container tech-section">
+    <div className="container tech-section" id="Stack">
       <div className="section-title">
         <h4>TechStack</h4>
         <span className="line"></span>

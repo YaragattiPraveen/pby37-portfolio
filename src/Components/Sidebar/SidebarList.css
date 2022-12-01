@@ -29,8 +29,18 @@
 .navbar-items-only-icons ul li svg{
     margin-left: 10px;
 }
+.nav-item .active{
+    border-left: 5px solid tomato;
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+    text-align: center;
+}
 @media screen and (max-width: 480px){
     .navbar-items-only-icons ul li svg{
         margin-left: 0px;
+    }
+    .navbar-items{
+        display: none;
     }
 }

@@ -119,7 +119,7 @@ const Project = () => {
     },
   ];
   return (
-    <div className="container project-section">
+    <div className="container project-section" id="Projects">
       <div className="section-title">
         <h4>Projects</h4>
         <span className="line"></span>

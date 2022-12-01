@@ -67,3 +67,23 @@
 .show-hide{
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px){
+    .project-section{
+        padding: 0 5px;
+        margin: 0px 1px;
+    }
+    .project-list{
+        margin: 15px 5px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
+    .project-section{
+        padding: 0 12px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1000px){
+    .project-section{
+        padding: 0 20px;
+    }
+  }

@@ -1,15 +1,16 @@
 .about-section{
-    box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
-    margin-top: 50px;
-    margin-bottom: 50px;
     padding-left: 125px;
     height: 400px;
+}
+.about-section .row{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    margin: 30px auto;
 }
 .about-image{
     height: 300px;
     width: 300px;
     border-radius: 190px;
-    margin: 50px 50px 50px 10px;
+    margin: 50px auto;
 }
 .about-image img{
     width: 100%;
@@ -33,28 +34,43 @@
 
 @media screen and (max-width: 480px) {
     .about-image{
-        margin: 25px auto;
-        height: 270px;
-        width: 270px;
+        margin: 20px auto;
+        height: 220px;
+        width: 220px;
     }
     .about-section{
-        padding: 25px;
-        margin: 50px 0px;
+        padding: 25px 10px;
+        margin: 0px 0px;
         height: auto;
     }
     .about-details{
         margin: 50px auto;
-        padding: 0 50px;
+        padding: 0 20px;
         text-align: center;
     }
   }
-  @media (min-width: 481px) and (max-width: 1020px){
-    .about-image{
-        margin: 25px auto;
-        height: 300px;
-        width: 300px;
-    }
+  @media (min-width: 481px) and (max-width: 768px) {
     .about-section{
         height: auto;
+        padding: 0 12px;
+    }
+    .about-details{
+        margin: 50px auto;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .about-image{
+        margin: 20px auto;
+        height: 220px;
+        width: 220px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1000px){
+    .about-section{
+        padding: 0 20px;
+        height: auto;
+    }
+    .about-details{
+        padding: 0 20px;
     }
   }

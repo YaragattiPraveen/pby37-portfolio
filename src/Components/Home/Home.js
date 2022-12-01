@@ -5,7 +5,7 @@ import Resume from '../../Assests/Front-End-Developer_Praveen.pdf'
 
 const Home = () => {
   return (
-    <div className='container-fluid home'>
+    <div className='container-fluid home' id='Home'>
       <div className='container home-content'>
         <h1>Hi I'm a</h1>
         <h3>

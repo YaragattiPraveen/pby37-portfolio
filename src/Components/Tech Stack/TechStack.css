@@ -14,7 +14,7 @@ h4{
     padding-left: 125px;
 }
 .tech-content{
-    box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
     padding: 10px;
     color: #333;
     margin-top: 50px;
@@ -62,8 +62,18 @@ h4{
 }
 @media screen and (max-width: 480px){
     .tech-section{
-        margin: 40px auto;
+        margin: 40px 1px;
         height: auto;
-        padding: 0 15px;
+        padding: 0 10px;
     }
 }
+@media (min-width: 481px) and (max-width: 768px){
+    .tech-section{
+        padding: 0 12px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1000px){
+    .tech-section{
+        padding: 0 20px;
+    }
+  }
