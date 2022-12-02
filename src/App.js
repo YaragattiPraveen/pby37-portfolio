@@ -8,22 +8,34 @@ import Education from './Components/Education/Education';
 import Contact from './Components/Contact/contact';
 import ScrollToTop from "react-scroll-to-top";
 import MobileNav from './Components/Sidebar/MobileNav';
+import { createContext, useState } from 'react';
 
+export const ThemeContext = createContext(null)
 
 function App() {
-  return (
-    <>
-      <MobileNav/>
-      <Sidebar/>
-      <About/>
-      <TechStack/>
-      <Project/>
-      <Workexperience/>
-      <Education/>
-      <Contact/>
 
-      <ScrollToTop color='#fff' height='20px' width='20px' smooth='true' style={{borderRadius:"10px",backgroundColor:'blue',padding:'5px'}}/>
-    </>
+  const [theme, setTheme] = useState('dark')
+
+  const ChangeTheme = () => {
+    setTheme((prev) => (prev === 'dark' ? "light" : 'dark'))
+  }
+
+  return (
+    <ThemeContext.Provider value={{ theme, ChangeTheme }}>
+
+      <div id={theme}>
+        <MobileNav />
+        <Sidebar theme={theme} ChangeTheme={ChangeTheme}/>
+        <About />
+        <TechStack />
+        <Project />
+        <Workexperience />
+        <Education />
+        <Contact />
+      </div>
+
+      <ScrollToTop color='#fff' height='20px' width='20px' smooth='true' style={{ borderRadius: "10px", backgroundColor: 'blue', padding: '5px' }} />
+    </ThemeContext.Provider>
   );
 }
 

@@ -61,6 +61,36 @@
     background-color: #439e1f;
 }
 
+.theme-change{
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    right: 0;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    position: fixed;
+    top: 150px;
+    margin-top: 220px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.sun-icon{
+    animation: rotation infinite linear 5s;
+}
+@keyframes rotation{
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
 @media screen and (max-width: 480px) {
     .home-content {
         padding: 10px 15px;

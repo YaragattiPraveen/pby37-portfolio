@@ -1,6 +1,6 @@
 .Education-section{
     padding-left: 125px;
-    z-index: -1;
+    /* z-index: -1; */
 }
 @media screen and (max-width: 480px){
     .Education-section{
