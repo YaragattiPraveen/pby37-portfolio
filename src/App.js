@@ -34,7 +34,7 @@ function App() {
         <Contact />
       </div>
 
-      <ScrollToTop color='#fff' height='20px' width='20px' smooth='true' style={{ borderRadius: "10px", backgroundColor: 'blue', padding: '5px' }} />
+      <ScrollToTop className='scroll-btn' color='#fff' height='20px' width='20px' smooth='true' style={{ borderRadius: "10px", backgroundColor: '#0A2F51', padding: '5px' }} />
     </ThemeContext.Provider>
   );
 }

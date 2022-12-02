@@ -6,7 +6,7 @@
 }
 
 .navbar-header {
-    background: rgba(99, 1, 39, 0.952);
+    background: #0A2F51;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -22,7 +22,7 @@
 }
 
 .side-mobile-nav {
-    background-color: brown;
+    background-color: #0A2F51;
     background: rgba(19, 18, 18, 0.699);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(1px);

@@ -3,3 +3,11 @@
   color: #fff;
   padding-bottom: 40px;
 }
+#dark p {
+  color: #fff;
+}
+@media screen and (max-width: 480px) {
+  .scroll-btn{
+    margin-right: -30px;
+  }
+}

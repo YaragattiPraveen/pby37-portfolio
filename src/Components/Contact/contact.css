@@ -38,8 +38,11 @@
     margin-bottom: 20px;
 }
 
+.contact-form-design{
+    padding: 0 40px;
+}
 .button-submit p {
-    background-color: rgb(2, 29, 5);
+    background-color: #1D9A6C;
     padding: 10px;
     border-radius: 30px;
     text-align: center;
@@ -58,6 +61,9 @@
         padding: 20px 5px;
         margin: 50px auto;
         height: auto;
+    }
+    .contact-form-design{
+        padding: 0;
     }
 
     .contact-section .row {

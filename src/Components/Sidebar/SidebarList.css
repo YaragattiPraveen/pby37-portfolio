@@ -30,9 +30,9 @@
     margin-left: 10px;
 }
 .nav-item .active{
-    border-left: 5px solid tomato;
+    border-left: 5px solid #99D492;
     text-decoration: none;
-    color: tomato;
+    color: #99D492;
     font-weight: bold;
     text-align: center;
 }

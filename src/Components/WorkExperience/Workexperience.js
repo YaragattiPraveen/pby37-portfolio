@@ -76,12 +76,12 @@ const Workexperience = () => {
       ],
     },
   ];
-  const bgcolors = ["#ffbf00", "#ff2400", "#43A9DD"];
+  const bgcolors = ["#99D492", "#74C67A", "#99D492"];
 
   return (
     <div className="container workexperience-section" id="Workexperience">
       <div className="about-title">
-        <h5>Work Experience</h5>
+        <h4>Work Experience</h4>
         <span className="line"></span>
       </div>
 
@@ -100,9 +100,9 @@ const Workexperience = () => {
               iconStyle={{ background: bgcolors[key], color: "#ffffff" }}
               icon={<MdWork />}
             >
-              <h3 className="vertical-timeline-element-title">
+              <h4 className="vertical-timeline-element-title" style={{textAlign: "left"}}>
                 {item.companyname}
-              </h3>
+              </h4>
               <h3 className="vertical-timeline-element-title">
                 {item.position}
               </h3>

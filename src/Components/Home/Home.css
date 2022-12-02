@@ -11,7 +11,7 @@
 
 .home-content h3 {
     margin-top: 15px;
-    color: rgb(243, 158, 12);
+    color: #56B870;
 }
 
 .buttons {
@@ -20,7 +20,7 @@
 }
 
 .hire-me-btn {
-    background-color: #FF854C;
+    background-color: #0A2F51;
     text-align: center;
     padding: 5px;
     width: 150px;
@@ -36,11 +36,11 @@
 .hire-me-btn:hover {
     width: 180px;
     transition: all ease-in-out .6s;
-    background-color: rgb(186, 120, 5);
+    background-color: #137177;
 }
 
 .download-cv-btn {
-    background-color: #1d5a05;
+    background-color: #1D9A6C;
     text-align: center;
     padding: 5px;
     width: 150px;
@@ -58,22 +58,22 @@
 .download-cv-btn:hover{
     width: 180px;
     transition: all ease-in-out .6s;
-    background-color: #439e1f;
+    background-color: #99D492;
 }
 
 .theme-change{
     justify-content: center;
-    height: 50px;
-    width: 50px;
-    background-color: blue;
+    height: 45px;
+    width: 45px;
+    background-color: #0E4D64;
     right: 0;
     margin-right: 10px;
     text-align: center;
     vertical-align: middle;
-    line-height: 50px;
+    line-height: 45px;
     position: fixed;
     top: 150px;
-    margin-top: 220px;
+    margin-top: 150px;
     border-radius: 5px;
     cursor: pointer;
     z-index: 999;
@@ -102,6 +102,11 @@
     }
     .hire-me-btn{
         margin-bottom: 10px;
+    }
+    .theme-change{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
     }
   }
   @media (min-width: 481px) and (max-width: 768px){

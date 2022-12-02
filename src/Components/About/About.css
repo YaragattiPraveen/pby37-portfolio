@@ -27,16 +27,20 @@
 }
 .about-details p{
     margin-top: 20px;
+    padding: 0 10px;
+    text-align: justify;
+    color: #02613e;
 }
 .about-title h5{
     text-align: center;
+    color: #0A2F51;
 }
 .line{
     display: block;
     width: 70px;
     height: 3px;
     margin: 1px auto;
-    background-color: yellowgreen;
+    background-color: #1D9A6C;
 }
 
 @media screen and (max-width: 480px) {

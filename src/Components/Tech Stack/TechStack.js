@@ -50,26 +50,26 @@ const TechStack = () => {
   ];
 
   const colors = [
-    "#db8780",
-    "#d2b48c",
-    "#ff033e",
-    "#5a4fcf",
-    "#39ff14",
-    "#00ffff",
-    "#ff00ff",
-    "#ffbf00",
-    "#ff2400",
-    "#9acd32",
-    "#1dcf00",
-    "#0abab5",
-    '#cfd2cd',
-    '#52b788',
-    '#3e6259'
+    "#0A2F51",
+    "#0E4D64",
+    "#137177",
+    "#1D9A6C",
+    "#0A2F51",
+    "#0E4D64",
+    "#137177",
+    "#1D9A6C",
+    "#0A2F51",
+    "#0E4D64",
+    "#137177",
+    "#1D9A6C",
+    "#0A2F51",
+    "#0E4D64",
+    "#137177"
   ];
 
-  const [loadmore,setLoadmore] = useState(9)
+  const [loadmore, setLoadmore] = useState(9)
 
-  const loadMore = ()=>{
+  const loadMore = () => {
     setLoadmore((prev) => prev + 3);
   }
   return (
@@ -80,7 +80,7 @@ const TechStack = () => {
       </div>
 
       <div className="row">
-        {data.slice(0,loadmore).map((val, ind) => {
+        {data.slice(0, loadmore).map((val, ind) => {
           return (
             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={ind}>
               <div className="tech-content">
@@ -96,8 +96,8 @@ const TechStack = () => {
           );
         })}
       </div>
-      {loadmore >= data.length ? null :  <span onClick={loadMore} className="load-more">Load More</span> }
-     
+      {loadmore >= data.length ? null : <span onClick={loadMore} className="load-more">Load More</span>}
+
     </div>
   );
 };

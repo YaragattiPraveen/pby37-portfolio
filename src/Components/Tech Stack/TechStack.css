@@ -7,6 +7,7 @@
 }
 h4{
     text-align: center;
+    color: #0A2F51;
 }
 .tech-section{
     margin: 40px auto;
@@ -33,8 +34,7 @@ h4{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .tech-content:hover{
-    background-color: #ff854c;
-    color: #fff;
+    background-color: #BFE1B0;
     transition: all ease-in-out 1s;
     cursor: pointer;
 }
@@ -46,11 +46,11 @@ h4{
     display: block;
     align-items: center;
     border-radius: 90px;
-    background-color: #ff854c;
+    color: #DEEDCF;
     line-height: 50px;
 }
 .load-more{
-    background-color: yellowgreen;
+    background-color: #0A2F51;
     width: 150px;
     padding: 10px;
     color: white;
@@ -64,7 +64,7 @@ h4{
     margin: 35px auto;
 }
 .load-more:hover{
-    background-color: rgba(117, 161, 29, 0.878);
+    background-color: #137177;
 }
 @media screen and (max-width: 480px){
     .tech-section{

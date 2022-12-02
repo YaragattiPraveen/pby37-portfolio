@@ -29,7 +29,7 @@ const Education = () => {
             location: 'Nesargi Belagavi, Karnataka-590006'
         }
     ]
-    const bgcolors = ["#6a040f", "#81b29a", "#003566"];
+    const bgcolors = ["#B9CC88", "#94BC66", "#94BC66"];
 
     return (
         <div className="container Education-section" id='Education'>
@@ -52,9 +52,9 @@ const Education = () => {
                             iconStyle={{ background: bgcolors[key], color: "#ffffff" }}
                             icon={<FaUserGraduate />}
                         >
-                            <h3 style={{margin: 0}}className="vertical-timeline-element-title">
+                            <h4 style={{textAlign:"left"}}className="vertical-timeline-element-title">
                                 {item.clgName}
-                            </h3>
+                            </h4>
                             <h5 className="vertical-timeline-element-title" style={{margin: "10px auto"}} >
                                 {item.class}
                             </h5>
