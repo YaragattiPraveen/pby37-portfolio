@@ -1,5 +1,12 @@
+import { motion } from "framer-motion";
 import React, { useState } from "react";
 import "../Tech Stack/TechStack.css";
+
+const divAnimate = {
+  offscreen: { x: 1500 },
+  onscreen: { x: 0 },
+}
+
 const TechStack = () => {
   const data = [
     {
@@ -72,18 +79,24 @@ const TechStack = () => {
   const loadMore = () => {
     setLoadmore((prev) => prev + 3);
   }
+
   return (
     <div className="container tech-section" id="Stack">
       <div className="section-title">
-        <h4>TechStack</h4>
+        <h4>Tech Skills</h4>
         <span className="line"></span>
       </div>
 
       <div className="row">
         {data.slice(0, loadmore).map((val, ind) => {
           return (
-            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={ind}>
-              <div className="tech-content">
+            <motion.div initial="offscreen" whileInView="onscreen"
+              viewport={{ once: false, amount: 0.1 }} className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={ind}>
+              <motion.div variants={divAnimate} transition={{
+                duration: 1.5,
+                type: 'spring',
+                bounce: 0.4
+              }} className="tech-content">
                 <span
                   className="index-no"
                   style={{ backgroundColor: colors[ind] }}
@@ -91,8 +104,8 @@ const TechStack = () => {
                   {ind + 1}
                 </span>
                 <p>{val.name}</p>
-              </div>
-            </div>
+              </motion.div>
+            </motion.div>
           );
         })}
       </div>

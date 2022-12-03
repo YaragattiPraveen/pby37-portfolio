@@ -1,6 +1,13 @@
+import { motion } from "framer-motion";
 import React from "react";
 import "./Project.css";
 import ProjectList from "./ProjectList";
+
+const divAnimate = {
+  offscreen: { x: -1000 },
+  onscreen: { x: 0 },
+}
+
 const Project = () => {
   const data = [
     {
@@ -124,13 +131,17 @@ const Project = () => {
         <h4>Projects</h4>
         <span className="line"></span>
       </div>
-      <div className="row">
+      <motion.div initial="offscreen" whileInView="onscreen"
+        viewport={{ once: false, amount: 0.1 }} className="row">
         {data.map((val, ind) => (
-            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12" key={ind}>
-                <ProjectList {...val}/>
-          </div>)
+          <motion.div variants={divAnimate} transition={{
+            duration: 1.5, type: 'spring',
+            bounce: 0.4
+          }} className="col-xl-6 col-lg-6 col-md-12 col-sm-12" key={ind}>
+            <ProjectList {...val} />
+          </motion.div>)
         )}
-      </div>
+      </motion.div>
     </div>
   );
 };

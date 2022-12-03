@@ -8,9 +8,12 @@ import Education from './Components/Education/Education';
 import Contact from './Components/Contact/contact';
 import ScrollToTop from "react-scroll-to-top";
 import MobileNav from './Components/Sidebar/MobileNav';
-import { createContext, useState } from 'react';
+import { createContext, useState } from 'react'
+
+
 
 export const ThemeContext = createContext(null)
+
 
 function App() {
 
@@ -25,7 +28,7 @@ function App() {
 
       <div id={theme}>
         <MobileNav />
-        <Sidebar theme={theme} ChangeTheme={ChangeTheme}/>
+        <Sidebar theme={theme} ChangeTheme={ChangeTheme} />
         <About />
         <TechStack />
         <Project />

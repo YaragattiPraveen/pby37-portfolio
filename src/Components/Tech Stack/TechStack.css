@@ -5,6 +5,9 @@
     margin: 1px auto;
     background-color: yellowgreen;
 }
+.section-title h4{
+    padding-top: 20px;
+}
 h4{
     text-align: center;
     color: #0A2F51;
