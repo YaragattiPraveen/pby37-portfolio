@@ -76,7 +76,7 @@ const Workexperience = () => {
       ],
     },
   ];
-  const bgcolors = ["#99D492", "#74C67A", "#99D492"];
+  const bgcolors = ["#74C67A", "#74C67A", "#74C67A"];
 
   return (
     <div className="container workexperience-section" id="Workexperience">

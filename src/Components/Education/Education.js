@@ -1,10 +1,10 @@
 import React from 'react'
 import {
-  VerticalTimeline,
-  VerticalTimelineElement,
+    VerticalTimeline,
+    VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {FaUserGraduate} from "react-icons/fa";
+import { FaUserGraduate } from "react-icons/fa";
 import '../Education/Education.css'
 
 const Education = () => {
@@ -29,7 +29,7 @@ const Education = () => {
             location: 'Nesargi Belagavi, Karnataka-590006'
         }
     ]
-    const bgcolors = ["#B9CC88", "#94BC66", "#94BC66"];
+    const bgcolors = ["#137177", "#137177", "#137177"];
 
     return (
         <div className="container Education-section" id='Education'>
@@ -52,13 +52,13 @@ const Education = () => {
                             iconStyle={{ background: bgcolors[key], color: "#ffffff" }}
                             icon={<FaUserGraduate />}
                         >
-                            <h4 style={{textAlign:"left"}}className="vertical-timeline-element-title">
+                            <h4 style={{ textAlign: "left" }} className="vertical-timeline-element-title">
                                 {item.clgName}
                             </h4>
-                            <h5 className="vertical-timeline-element-title" style={{margin: "10px auto"}} >
+                            <h5 className="vertical-timeline-element-title" style={{ margin: "10px auto" }} >
                                 {item.class}
                             </h5>
-                            <p className="vertical-timeline-element-title" style={{margin: "10px auto"}}>
+                            <p className="vertical-timeline-element-title" style={{ margin: "10px auto" }}>
                                 {item.location}
                             </p>
                         </VerticalTimelineElement>

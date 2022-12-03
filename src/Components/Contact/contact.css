@@ -56,6 +56,10 @@
     transition: 1s all ease-in-out;
 }
 
+.text-center h5{
+    padding: 15px 0;
+    color:#0E4D64;
+}
 @media screen and (max-width: 480px) {
     .contact-section {
         padding: 20px 5px;

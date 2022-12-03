@@ -17,6 +17,14 @@
     margin: 50px 0;
     /* z-index: -1; */
 }
+.vertical-timeline-element--work .des{
+    text-align: justify;
+    letter-spacing: 0.05rem;
+    word-spacing: 0.04rem;
+}
+.vertical-timeline-element--work h3{
+    padding: 10px 0;
+}
 @media screen and (max-width: 480px){
     .workexperience-section{
         padding: 0 5px;

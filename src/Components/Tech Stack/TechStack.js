@@ -22,18 +22,6 @@ const TechStack = () => {
       name: "React JS",
     },
     {
-      name: "Express JS",
-    },
-    {
-      name: "Node JS",
-    },
-    {
-      name: "MongoDB",
-    },
-    {
-      name: "SQL",
-    },
-    {
       name: "BootStrap",
     },
     {
@@ -43,16 +31,28 @@ const TechStack = () => {
       name: "Material UI",
     },
     {
-      name: "Front End Developer",
+      name: "SQL",
     },
     {
-      name: "UX/UI",
+      name: "Redux",
     },
     {
-      name: "Python",
+      name: "Git",
     },
     {
-      name: 'Django'
+      name: "GitHuB",
+    },
+    {
+      name: "Responsive Design",
+    },
+    {
+      name: "Rest API",
+    },
+    {
+      name: "UI/UX",
+    },
+    {
+      name: "FireBase"
     }
   ];
 
