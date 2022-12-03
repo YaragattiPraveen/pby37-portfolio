@@ -3,6 +3,7 @@ import "../Sidebar/Sidebar.css"
 import Home from '../Home/Home'
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs'
 import SidebarList from './SidebarList'
+import bgVideo from "../../Assests/Atoms.mp4"
 
 
 const Sidebar = ({ theme, ChangeTheme }) => {
@@ -14,6 +15,7 @@ const Sidebar = ({ theme, ChangeTheme }) => {
     }
     return (
         <div className='container-fluid sidebar-section'>
+
             <div className={expandSidebar ? 'sidebar-expand sidebar' : 'sidebar'}>
                 <div className='icon-for-sidebar-expand-and-collapse'>
                     <p onClick={handleExpandClick}>
@@ -22,10 +24,17 @@ const Sidebar = ({ theme, ChangeTheme }) => {
 
                     </p>
                 </div>
-            <SidebarList expandSidebar={expandSidebar} />
+                <SidebarList expandSidebar={expandSidebar} />
             </div>
             <div className='container'>
-                <Home theme={theme} ChangeTheme={ChangeTheme}/>
+                <div className='home-section'>
+                    <div className='video-sec'>
+                        <video autoPlay muted loop src={bgVideo}></video>
+                    </div>
+                    <Home className="home-comp" theme={theme} ChangeTheme={ChangeTheme} />
+
+
+                </div>
             </div>
         </div>
     )

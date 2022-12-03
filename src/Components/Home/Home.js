@@ -7,13 +7,13 @@ import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs';
 const Home = ({theme,ChangeTheme}) => {
   return (
     <div className='container-fluid home' id='Home'>
-
       <div className='theme-change' onClick={ChangeTheme}>
         {
           theme === 'light' ? <BsFillMoonStarsFill size={25}/>:<BsFillSunFill size={25} className="sun-icon"/>
         }
       </div>
       <div className='container home-content'>
+
         <h1>Hi I'm a</h1>
         <h3>
           <Typewriter
