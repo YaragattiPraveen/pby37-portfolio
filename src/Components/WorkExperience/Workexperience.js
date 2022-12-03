@@ -10,30 +10,10 @@ import { MdWork } from "react-icons/md";
 const Workexperience = () => {
   const data = [
     {
-      companyname: "Amazon",
-      position: "Full Stack Developer",
-      desc: "We never settle on compromise and improvise; our first and foremost priority is to maintain client’s trust and nurture a healthy long-term relationship with them.",
-      year: "2023 Jun - 2026 Feb",
-      techskills: [
-        {
-          techname: "Node JS",
-        },
-        {
-          techname: "Express JS",
-        },
-        {
-          techname: "React JS",
-        },
-        {
-          techname: "MongoDB",
-        },
-      ],
-    },
-    {
       companyname: "TCS",
       position: "Summit Tool Developer",
-      desc: "There is work life balance and no stress at all if you've learnt that skill . In terms of job security, it's the best. Wide learning opportunities and free trainings provided by udemy and LinkedIn, etc. if one wishes to learn.",
-      year: "2022 Dec - 2023 Feb",
+      desc: "My client requires data on a daily basis, so I created reports using SQL. In some cases, I had to write scripts for front end validation using HTML, CSS and JavaScript. For tool automation, I implemented more than five tools with Symphony via the REST API.",
+      year: "2021 Dec - Present",
       techskills: [
         {
           techname: "HTML",
@@ -53,10 +33,28 @@ const Workexperience = () => {
       ],
     },
     {
+      companyname: "Verificient Solution PVT.LTD",
+      position: "Product Support Specialist",
+      desc: "Provided support to the rollout of new application features by interfacing with users and responding to their queries via a variety of communication channels and Handled more than 8 users at a time.",
+      year: "2021 March - 2021 Nov",
+      techskills: [
+        {
+          techname: "Chat",
+        },
+        {
+          techname: "Telephone"
+        },
+        {
+          techname: "Email"
+        }
+        
+      ],
+    },
+    {
       companyname: "JuppiterAI",
       position: "Frontend Developer",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when look",
-      year: "Jun 2021 - Dec 2021",
+      desc: "While I was an intern, I worked on Frontend technology creating the Web Application and UI for Chatbots, coordinating with backend engineers. During this period, I gained knowledge about FrontEnd Technology, and I began exploring web development at this time.",
+      year: "Sep 2021 - Feb 2021",
       techskills: [
         {
           techname: "HTML",
@@ -72,7 +70,7 @@ const Workexperience = () => {
         },
         {
           techname: "Material UI",
-        },
+        }
       ],
     },
   ];
