@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import React from 'react'
 import contact from '../../Assests/contact.jpg'
 import '../Contact/contact.css'
+import { Email } from './email'
 
 const imgAnimate = {
     offscreen: { x: -600 },
@@ -13,6 +14,7 @@ const divAnimate = {
     onscreen: { x: 0 },
 }
 const Contact = () => {
+    
     return (
         <div className='container contact-section' id='Contacts'>
             <motion.div initial="offscreen" whileInView="onscreen"
@@ -35,25 +37,7 @@ const Contact = () => {
                         <div className="text-center">
                             <h5>Contact Me</h5>
                         </div>
-                        <form>
-                            <div className="contact-form">
-                                <label className='form-label'>Name</label>
-                                <input type="text" className='form-control' />
-                            </div>
-
-                            <div className="contact-form">
-                                <label className='form-label'>E-mail</label>
-                                <input type="Email" className='form-control' />
-                            </div>
-                            <div className="contact-form">
-                                <label className='form-label'>Message</label>
-                                <textarea className='form-control' cols="30" rows="4"></textarea>
-                            </div>
-
-                            <div className="button-submit">
-                                <p>Send</p>
-                            </div>
-                        </form>
+                        <Email/>
                     </div>
                 </motion.div>
             </motion.div>
