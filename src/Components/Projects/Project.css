@@ -68,8 +68,9 @@
     border-radius: 90px;
     width: fit-content;
     margin: 5px;
+    font-size: 14px;
     transition-duration: 1s;
-    padding: 6px 25px;
+    padding: 6px 20px;
 }
 
 .live-demo:hover {

@@ -41,7 +41,7 @@
 .contact-form-design{
     padding: 0 40px;
 }
-.button-submit p {
+.button-submit {
     background-color: #1D9A6C;
     padding: 10px;
     border-radius: 30px;
@@ -49,9 +49,10 @@
     color: #fff;
     cursor: pointer;
     margin-top: 40px;
+    border: none;
 }
 
-.button-submit p:hover {
+.button-submit:hover {
     background-color: rgba(10, 139, 27, 0.582);
     transition: 1s all ease-in-out;
 }

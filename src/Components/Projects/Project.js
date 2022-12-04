@@ -11,8 +11,8 @@ const divAnimate = {
 const Project = () => {
   const data = [
     {
-      name: "Pizza Delivery App",
-      desc: "I have used the React JS to build this project with concepts like Hooks, Routers and CSS.",
+      name: "Pizza Website",
+      desc: "In this project, I built everything from scratch using React JS, CSS, and React Routers. It is pixel perfect and responsive on all devices without using any third party libraries.",
       projectlink: "https://largospizza.netlify.app/",
       techused: [
         {
@@ -25,18 +25,15 @@ const Project = () => {
           techname: "CSS",
         },
         {
-          techname: "Material UI",
+          techname: "Routers",
         },
       ],
     },
     {
-      name: "Fruit Shop",
-      desc: "In this project i have learned how to convert the PSD template to web application.",
+      name: "Fruits Website",
+      desc: "This project has mainly been built with HTML, CSS, and JavaScript, where I converted the PSD to a website from scratch. This helped me understand how to design a website with HTML and CSS only.",
       projectlink: "https://pby37.netlify.app/",
       techused: [
-        {
-          techname: "React JS",
-        },
         {
           techname: "HTML",
         },
@@ -44,26 +41,23 @@ const Project = () => {
           techname: "CSS",
         },
         {
-          techname: "Material UI",
+          techname: "JavaScript",
         },
       ],
     },
     {
       name: "Food Recipe App",
-      desc: "In this project i have used API to display the food recipe on application, which is helps the user the get the recipe about there favourite food.",
+      desc: "The purpose of this project was to use REST APIs to display the food recipes in frontend application, allowing the user to get the recipe for their favorite food and I learned how to use REST APIs in a real-world scenario.",
       projectlink: "https://foodrecipeplaza.netlify.app",
       techused: [
         {
           techname: "React JS",
         },
         {
-          techname: "Express JS",
+          techname: "CSS",
         },
         {
-          techname: "Node JS",
-        },
-        {
-          techname: "MongoDB",
+          techname: "REST API",
         },
       ],
     },
@@ -76,10 +70,10 @@ const Project = () => {
           techname: "React JS",
         },
         {
-          techname: "HTML",
+          techname: "CSS",
         },
         {
-          techname: "CSS",
+          techname: "REST API",
         },
         {
           techname: "Material UI",
@@ -87,41 +81,22 @@ const Project = () => {
       ],
     },
     {
-      name: "Cocktail Recipe App",
-      desc: "In this project i have used API to display the cocktail name on application, which is helps the user the get the what all ingriedients are used in cocktail.",
-      projectlink: "https://foodrecipeplaza.netlify.app",
+      name: "Coming Soon Projects.....",
+      desc: "In the future, I would like to build more projects such as Spotify clones, weather apps, Shopping Carts using Redux, Netflix clones, and authentication-based applications.",
+      projectlink: "",
       techused: [
         {
-          techname: "React JS",
+          techname: "Spotify",
         },
         {
-          techname: "HTML",
+          techname: "Cart",
         },
         {
-          techname: "CSS",
+          techname: "Netflix",
         },
         {
-          techname: "Material UI",
-        },
-      ],
-    },
-    {
-      name: "Cocktail Recipe App",
-      desc: "In this project i have used API to display the cocktail name on application, which is helps the user the get the what all ingriedients are used in cocktail.",
-      projectlink: "https://foodrecipeplaza.netlify.app",
-      techused: [
-        {
-          techname: "React JS",
-        },
-        {
-          techname: "HTML",
-        },
-        {
-          techname: "CSS",
-        },
-        {
-          techname: "Material UI",
-        },
+          techname: "Weather"
+        }
       ],
     },
   ];

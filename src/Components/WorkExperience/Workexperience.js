@@ -12,7 +12,7 @@ const Workexperience = () => {
     {
       companyname: "TCS",
       position: "Summit Tool Developer",
-      desc: "My client requires data on a daily basis, so I created reports using SQL. In some cases, I had to write scripts for front end validation using HTML, CSS and JavaScript. For tool automation, I implemented more than five tools with Symphony via the REST API.",
+      desc: "My job primarily involves in BAU activity, so the client required daily tool data, so I created reports using SQL. In some cases, I had to write scripts for front end validation using HTML, CSS and JavaScript. For tool automation, I implemented more than five tools with Symphony via the REST API.",
       year: "2021 Dec - Present",
       techskills: [
         {

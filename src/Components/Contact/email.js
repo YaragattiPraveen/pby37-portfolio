@@ -33,7 +33,7 @@ export const Email = () => {
             </div>
 
             <div className="contact-form">
-                <input className='form-control' type="submit" value="Send" />
+                <input className='form-control button-submit' type="submit" value="Send" />
             </div>
         </form>
     );
