@@ -16,11 +16,50 @@
     padding: 20px auto;
 }
 
+.social-media{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.social-media p{
+    padding: 4px 10px;
+    background: #56B870;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease-in-out .4s;
+}
+.social-media a{
+    text-decoration: none;
+    color: #fff;
+}
+.git:hover{
+    margin-top: -15px;
+    transition: ease-in-out .4s;
+}
+.linkdin:hover{
+    margin-top: -15px;
+    transition: ease-in-out .4s;
+}
+.gmail:hover{
+    margin-top: -15px;
+    transition: ease-in-out .4s;
+}
 .buttons {
     display: flex;
     margin-top: 30px;
 }
-
+.git{
+    margin-right: 15px;
+    transition: ease-in-out .4s;
+    
+}
+.gmail{
+    margin-left: 15px;
+    transition: ease-in-out .4s;
+}
+.linkdin{
+    transition: ease-in-out .4s;
+}
 .hire-me-btn {
     background-color: #0A2F51;
     text-align: center;
