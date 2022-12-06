@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Home/Home.css'
 import Typewriter from 'typewriter-effect';
-import Resume from '../../Assests/Front-End-Developer_Praveen.pdf'
+import Resume from '../../Assests/Praveen_Yaragatti_FrontEnd_Developer.pdf'
 import { BsFillMoonStarsFill, BsFillSunFill, BsGithub, BsLinkedin } from 'react-icons/bs';
 import {SiGmail} from 'react-icons/si'
 import { motion } from 'framer-motion';

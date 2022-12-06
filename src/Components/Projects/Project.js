@@ -12,7 +12,7 @@ const Project = () => {
   const data = [
     {
       name: "Pizza Website",
-      desc: "In this project, I built everything from scratch using React JS, CSS, and React Routers. It is pixel perfect and responsive on all devices without using any third party libraries.",
+      desc: "This is a React-based landing page application that displays a menu of pizza images along with the price. The About Us page and contact us page are pixel perfect and responsive on all devices without using any third party libraries.",
       projectlink: "https://largospizza.netlify.app/",
       techused: [
         {
